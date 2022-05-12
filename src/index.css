@@ -1,0 +1,86 @@
+body{
+  background-image: url("restaurant image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 23px;
+  margin: 0;
+  padding: 0;
+  overflow: scroll;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 405px;
+  margin-top: 50px;
+}
+
+.container {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 0 10px 5px;
+  background-color: burlywood;
+}
+
+.phase1 {
+  margin: 15px 15px -35px 10px;
+}
+
+.phase3{
+  font-size: 13px;
+}
+
+button {
+  background-color: darkblue;
+  font-size: 17px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+button:hover{
+  background-color: rgb(100, 77, 34);
+}
+
+p{
+  font-size: 13px;
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+
+}
+  
+u{
+  color: blueviolet;
+}
+
+ul {
+  display: flex;
+  flex-direction: center;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 40px;
+  overflow: hidden;
+}
+
+li a{
+  color: #ffff;
+  text-decoration: none;
+  float: left;
+  padding: 10px 15px;
+  min-width: 100px;
+}
+
+li a:hover{
+  background-color: brown;
+}
